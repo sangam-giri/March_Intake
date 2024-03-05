@@ -48,3 +48,21 @@ print(myData.contains('Cat'));
 print(myData.contains('Elephant'));
 }
 ```
+```
+void main(){
+List<Map<String,String>> families=[
+  {
+  'father':'RamLal',
+  'mother':'Harikala'
+    },
+  {
+    'father':'Rameshwor',
+    'mother':'Nandini'
+  }
+];
+  
+  print(families.length);
+  print(families[0]['father']);
+  
+}
+```
