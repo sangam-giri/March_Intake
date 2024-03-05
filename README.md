@@ -35,3 +35,16 @@ void main(){
 print("Hello my name is $name I am $age years old. I make around $salary every month and my hobbies are $hobbies. And my maritial status is $isMarried and my family members are: $familyMembers");
 }
 ```
+```
+void main(){
+ List<String> myData =['Cat','Dog'];
+ print(myData);
+ print(myData[1]);
+ myData.add('Cow');
+  print(myData);
+  myData.removeAt(1);
+  print(myData);
+print(myData.contains('Cat'));
+print(myData.contains('Elephant'));
+}
+```
